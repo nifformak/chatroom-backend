@@ -58,7 +58,7 @@ const DialogController = {
               ),
         },
       });
-      await createMessage({text: `user ${login} leaved`, dialog, userId});
+      await createMessage({text: `user ${login} left`, dialog, userId});
     }
     catch (e) {
       console.log(e)
